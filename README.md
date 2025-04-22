@@ -5,13 +5,18 @@ This project is a simple web application that demonstrates the use of HTML, CSS,
 
 ## Project Structure
 ```
-html-css-js-project
-├── src
-│   ├── index.html        # Main HTML document
+├── mi-sitio
+│   ├── index.html     # Main HTML document
+|   ├── contacto.html
+|   ├── noticias-dep.html
+|   ├── noticas-inf.html 
 │   ├── styles
-│   │   └── style.css     # Styles for the web application
-│   └── scripts
-│       └── app.js        # JavaScript code for interactivity
+│   │   └── contacto.css
+|   |   └── index.css
+|   |   └── noticias.css     # Styles for the web application
+│   └── php
+│       └── contacto.php
+|       └── ejercicio.php        # JavaScript code for interactivity
 └── README.md             # Project documentation
 ```
 
