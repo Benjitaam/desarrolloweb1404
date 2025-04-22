@@ -1,0 +1,148 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Formulario de Contacto */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #003d80;
+}
+
+/* Información de Contacto */
+.info-contacto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info-contacto p {
+    margin: 5px 0;
+}
+
+/* Mapa de Ubicación */
+.mapa {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mapa iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Redes Sociales */
+.redes-sociales{
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    color: #003d80;
+}
+
+/* Horario de Atención */
+.horario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.horario h2 {
+    margin-bottom: 10px;
+}
+
+.horario p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    form, .info-contacto, .mapa, .redes-sociales, .horario {
+        padding: 10px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+}
